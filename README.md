@@ -31,7 +31,7 @@ Also we augment the train data to expand training dataset.
 ![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119440892-18789d80-bd60-11eb-99f7-dbc85605a239.png)
 
 ### Attention Block Architecture
-![Attention_Block](https://user-images.githubusercontent.com/57583574/119440917-21696f00-bd60-11eb-9c31-8b2bf2828873.png)
+![Atten_block](https://user-images.githubusercontent.com/57583574/119462193-69e25600-bd7b-11eb-842d-87e7c3c6cc52.png)
 
 ### Upsample Block Architecture
 ![Upsample Block](https://user-images.githubusercontent.com/57583574/119459857-0a834680-bd79-11eb-8f75-a0a5b149c9da.png)
