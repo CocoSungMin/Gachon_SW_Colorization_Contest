@@ -11,6 +11,10 @@ Referenced Paper
 Our model input has [ l . ab_hint , mask ] as a input.    
 So 4 channels go in, out output comes with 3 channels so that it can be converted to ".png" format.    
 Also we augment the train data to expand training dataset.
+## Hint based input make
+![Multi](https://user-images.githubusercontent.com/57583574/119486699-838f9780-bd93-11eb-9f31-126f6483a562.gif)
+
+
 
 ------------------------
 ## Team Member
