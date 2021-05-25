@@ -19,16 +19,17 @@ TBA
 4. torchvision 0.9.1
 5. python-cv2
 6. tqdm
+7. cuda 10.2
 
 -----------------
 ## Code Usage
-1. For training 
-Before training please use "aug.py" to automatically augmentation train data ( flip , rotate 180 )
+1. Before training please use "aug.py" to automatically augmentation train data ( flip , rotate 180 )
+2. For training 
 ```
 python main.py
 ```
 
-2. For testing ( predicting )
+3. For testing ( predicting )
 ```
 python test.py
 ```
