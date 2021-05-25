@@ -8,7 +8,8 @@ Referenced Paper
 1. U-Net : https://arxiv.org/abs/1505.04597.   
 2. Attention U-Net : https://arxiv.org/abs/1804.03999      
 
-Our model input has [ l . ab_hint , mask ] as a input. So 4 channels go in out output comes with 3 channels so that it can be converted to ".png" format.    
+Our model input has [ l . ab_hint , mask ] as a input.    
+So 4 channels go in, out output comes with 3 channels so that it can be converted to ".png" format.    
 Also we augment the train data to expand training dataset.
 
 ------------------------
@@ -26,7 +27,7 @@ Also we augment the train data to expand training dataset.
 ### Our Model Architecture
 ![Model_arch](https://user-images.githubusercontent.com/57583574/119439859-2f1df500-bd5e-11eb-9316-8fcf48f01c48.png)
 
-### Recurrent Residual Block Architecture
+### Residual Block Architecture
 ![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119440892-18789d80-bd60-11eb-99f7-dbc85605a239.png)
 
 ### Attention Block Architecture
@@ -56,7 +57,7 @@ Input data size : ( 128 X 128 ).
 
 -----------------
 ## Code Usage
-1. Before training please use "aug.py" to automatically augmentation train data ( flip , rotate 180 )
+1. Before training, please use "aug.py" to automatically augmentation train data ( flip , rotate 180 )
 2. For training 
 ```
 python main.py
@@ -67,7 +68,7 @@ python main.py
 python test.py
 ```
 -----------------
-You can get best model files via
+You can get best model files via ( epoch 122 weight files )
 ```
 https://drive.google.com/drive/folders/1GYLHydb1wabJKbSkf7c0NUSDalQ3JX9x?usp=sharing
 ```
