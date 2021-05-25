@@ -1,6 +1,7 @@
 # Colorization with Deep learning contest in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
-This Project code ranked 1st place in Colorization competition in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).      
+This Project code ranked 1st place in Colorization competition in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
+![Screen Shot 2021-05-25 at 10 26 49 AM](https://user-images.githubusercontent.com/57583574/119442232-5f679280-bd62-11eb-8893-37da1ecc4d70.png)
 Main architecture based on U-net. we replace the [ Convolution -> Batch Normalization -> ReLu ] to Residual Block same architecture in resnet.    
 
 Referenced Paper
