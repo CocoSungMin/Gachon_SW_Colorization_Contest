@@ -1,6 +1,14 @@
 # Colorization with Deep learning contest in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
-This Project code ranked 1st place in Colorization contest in Multimedia&lab lecture
+This Project code ranked 1st place in Colorization competition in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).      
+Main architecture based on U-net. we replace the [ Convolution -> Batch Normalization -> ReLu ] to Residual Block same architecture in resnet.    
+
+Referenced Paper
+1. U-Net : https://arxiv.org/abs/1505.04597.   
+2. Attention U-Net : https://arxiv.org/abs/1804.03999      
+
+Our model input has [ l . ab_hint , mask ] as a input. So 4 channels go in out output comes with 3 channels so that it can be converted to ".png" format.    
+Also we augment the train data to expand training dataset.
 
 ------------------------
 ## Team Member
@@ -10,12 +18,30 @@ This Project code ranked 1st place in Colorization contest in Multimedia&lab lec
 4. Soeun Lee ( Department of Software , Senior student in Gachon Uni.)
 -----------------------
 ## Model Architecture
-### Model Architecture
+
+### Basic U-net Architecture
+![Picture1](https://user-images.githubusercontent.com/57583574/119441049-68effb00-bd60-11eb-98c1-4877df56fb21.png)
+
+### Our Model Architecture
 ![Model_arch](https://user-images.githubusercontent.com/57583574/119439859-2f1df500-bd5e-11eb-9316-8fcf48f01c48.png)
+
 ### Recurrent Residual Block Architecture
-![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119439945-54aafe80-bd5e-11eb-8c1a-f7b78660dfd0.png)
+![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119440892-18789d80-bd60-11eb-99f7-dbc85605a239.png)
+
 ### Attention Block Architecture
-![Attenion_Block](https://user-images.githubusercontent.com/57583574/119439971-6096c080-bd5e-11eb-8ee1-8912ddd96e25.png)
+![Attention_Block](https://user-images.githubusercontent.com/57583574/119440917-21696f00-bd60-11eb-9c31-8b2bf2828873.png)
+
+### Model Results
+![Model output](https://user-images.githubusercontent.com/57583574/119440584-896b8580-bd5f-11eb-86c6-84315c1750cb.png)
+
+
+### Specific Information about model
+Learning Rate : 25e-5.   
+Epoch : 150.    
+Loss Function : L1 loss.   
+Optimizer : Adam.    
+Input data size : ( 128 X 128 ).    
+
 
 -----------------------
 ## Required Library
