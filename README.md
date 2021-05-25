@@ -2,7 +2,15 @@
 -----------------------
 This Project code ranked 1st place in Colorization contest in Multimedia&lab lecture
 
-You need to use virtual environment like anaconda or docker to use this code
+------------------------
+## Team Member
+1. Sungmin Lee ( Department of Software , undergraduated Research Assistant in VMRLAB Gachon Uni.)
+2. Taeho Oh ( Department of Software , Senior student in Gachon Uni.)
+3. Hyeju Yoon ( Department of Software , Senior student in Gachon Uni.)
+4. Soeun Lee ( Department of Software , Senior student in Gachon Uni.)
+-----------------------
+## Model Architecture
+TBA
 -----------------------
 ## Required Library
 1. numpy
