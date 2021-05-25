@@ -33,8 +33,12 @@ Also we augment the train data to expand training dataset.
 ### Attention Block Architecture
 ![Attention_Block](https://user-images.githubusercontent.com/57583574/119440917-21696f00-bd60-11eb-9c31-8b2bf2828873.png)
 
+### Upsample Block Architecture
+![Upsample Block](https://user-images.githubusercontent.com/57583574/119459857-0a834680-bd79-11eb-8f75-a0a5b149c9da.png)
+
 ### Model Results
-![Model output](https://user-images.githubusercontent.com/57583574/119440584-896b8580-bd5f-11eb-86c6-84315c1750cb.png)
+![Model output](https://user-images.githubusercontent.com/57583574/119458995-42d65500-bd78-11eb-9b78-4dfddbc22363.png)
+
 
 
 ### Specific Information about model
@@ -57,7 +61,7 @@ Input data size : ( 128 X 128 ).
 
 -----------------
 ## Code Usage
-1. Before training, please use "aug.py" to automatically augmentation train data ( flip , rotate 180 )
+1. Before training, please use "aug.py" to automatically augmentation training data ( flip , rotate 180 )
 2. For training 
 ```
 python main.py
