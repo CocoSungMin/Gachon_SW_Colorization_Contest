@@ -81,4 +81,4 @@ https://drive.google.com/drive/folders/1GYLHydb1wabJKbSkf7c0NUSDalQ3JX9x?usp=sha
 ```
 --------------
 ## License
-This project blongs to Multimedia & Lab Team 6 members , Gachon Uni ( 2021 spring semester )
+This project belongs to Multimedia & Lab Team 6 members , Gachon Uni ( 2021 spring semester )
