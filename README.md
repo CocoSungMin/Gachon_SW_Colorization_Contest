@@ -14,7 +14,9 @@ Referenced Paper
 
 
 Basic model based on "Hyeju Yoon" standard u-net : 
-```https://drive.google.com/file/d/1P0Vbt_V5FdcjWVyFcgQiK496nRUOWHzI/view?usp=sharing. ``` 
+```
+https://drive.google.com/file/d/1P0Vbt_V5FdcjWVyFcgQiK496nRUOWHzI/view?usp=sharing. 
+``` 
 "Sungmin Lee" replace the [ Conv - BatchNorm - ReLU ] blocks to Residual block and add attention layer in skip connection.   
  
    
@@ -40,7 +42,8 @@ Also we augment the training data ( Flip horizontal , Rotate 180 ) to expand tra
 ![Picture1](https://user-images.githubusercontent.com/57583574/119441049-68effb00-bd60-11eb-98c1-4877df56fb21.png)
 
 ### Our Model Architecture
-![Screen Shot 2021-05-26 at 11 00 10 AM](https://user-images.githubusercontent.com/57583574/119591445-921c9400-be11-11eb-8c3c-e3354ad2623c.png)
+![Screen Shot 2021-05-26 at 11 02 03 AM](https://user-images.githubusercontent.com/57583574/119591595-dc057a00-be11-11eb-910a-10b4066ca256.png)
+
 
 ### Residual Block Architecture
 ![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119463055-55528d80-bd7c-11eb-8063-09ef2857df7d.png)
