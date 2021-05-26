@@ -7,12 +7,14 @@ Main architecture based on U-net. we replace the [ Convolution -> Batch Normaliz
 Referenced Paper
 1. U-Net : https://arxiv.org/abs/1505.04597.   
 2. Attention U-Net : https://arxiv.org/abs/1804.03999      
+3. Real-Time User-Guided Image Colorization with Learned Deep Priors : https://arxiv.org/abs/1705.02999.  
 
 Our model input has [ l . ab_hint , mask ] as a input.    
 So 4 channels go in, out output comes with 3 channels so that it can be converted to ".png" format.    
 Also we augment the train data to expand training datasets.    
 
-![Multi](https://user-images.githubusercontent.com/57583574/119499897-26e7a900-bda2-11eb-81cb-79734e13aad1.gif)
+![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
+
 
 
 
