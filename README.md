@@ -1,7 +1,7 @@
 # Colorization with Deep learning competitions in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
 ### This Project code ranked 1st place in Colorization Challenge competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
-![Screen Shot 2021-05-25 at 10 26 49 AM](https://user-images.githubusercontent.com/57583574/119442232-5f679280-bd62-11eb-8893-37da1ecc4d70.png)
+![Screen Shot 2021-05-26 at 11 16 48 AM](https://user-images.githubusercontent.com/57583574/119592664-df9a0080-be13-11eb-963e-a567b6cfff6c.png)
   
 
 ![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
