@@ -1,21 +1,30 @@
 # Colorization with Deep learning competitions in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
-### This Project code ranked 1st place in Colorization competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
+### This Project code ranked 1st place in Colorization Challenge competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
 ![Screen Shot 2021-05-25 at 10 26 49 AM](https://user-images.githubusercontent.com/57583574/119442232-5f679280-bd62-11eb-8893-37da1ecc4d70.png)
-Main architecture based on U-net. we replace the [ Convolution -> Batch Normalization -> ReLu ] to Residual Block same architecture in resnet.    
-
-Referenced Paper
-1. U-Net : https://arxiv.org/abs/1505.04597.   
-2. Attention U-Net : https://arxiv.org/abs/1804.03999      
-3. Real-Time User-Guided Image Colorization with Learned Deep Priors : https://arxiv.org/abs/1705.02999.  
-
-Our model input has [ l . ab_hint , mask ] as a input.    
-So 4 channels go in, out output comes with 3 channels so that it can be converted to ".png" format.    
-Also we augment the train data to expand training datasets.    
+  
 
 ![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
 
+Referenced Paper
+1. U-Net Convolutional Networks for Biomedical Image Segmentation : https://arxiv.org/abs/1505.04597.   
+2. Attention U-Net Learning Where to Look for the Pancreas : https://arxiv.org/abs/1804.03999      
+3. Real-Time User-Guided Image Colorization with Learned Deep Priors : https://arxiv.org/abs/1705.02999.  
+4. Depp Residual Learning for Image Recognition : https://arxiv.org/abs/1512.03385.  
 
+
+Basic model based on "Hyeju Yoon" standard u-net : 
+```https://drive.google.com/file/d/1P0Vbt_V5FdcjWVyFcgQiK496nRUOWHzI/view?usp=sharing. ``` 
+"Sungmin Lee" replace the [ Conv - BatchNorm - ReLU ] blocks to Residual block and add attention layer in skip connection.   
+ 
+   
+Our model input has [ l . ab_hint , mask ] as a input.   
+Most of Fully open github project for colorization via deep learning adapted 4 channels as a input.   
+Their 4 channels consisted with 3 color channel ( e.g. Lab format L and ab chanel ) and mask as a channel.   
+The mask channel leads models to train provided hint with location of the hint pixel color.   
+This work shows better performance than other works in our team.
+So 4 channels go in, output comes with 3 channels so that it can be converted to ".png" format.    
+Also we augment the training data ( Flip horizontal , Rotate 180 ) to expand training datasets.    
 
 
 ------------------------
@@ -31,7 +40,7 @@ Also we augment the train data to expand training datasets.
 ![Picture1](https://user-images.githubusercontent.com/57583574/119441049-68effb00-bd60-11eb-98c1-4877df56fb21.png)
 
 ### Our Model Architecture
-![Model_arch](https://user-images.githubusercontent.com/57583574/119439859-2f1df500-bd5e-11eb-9316-8fcf48f01c48.png)
+![Screen Shot 2021-05-26 at 11 00 10 AM](https://user-images.githubusercontent.com/57583574/119591445-921c9400-be11-11eb-8c3c-e3354ad2623c.png)
 
 ### Residual Block Architecture
 ![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119463055-55528d80-bd7c-11eb-8063-09ef2857df7d.png)
