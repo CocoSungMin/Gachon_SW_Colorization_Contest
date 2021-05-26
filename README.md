@@ -42,7 +42,7 @@ Also we augment the training data ( Flip horizontal , Rotate 180 ) to expand tra
 ![Picture1](https://user-images.githubusercontent.com/57583574/119441049-68effb00-bd60-11eb-98c1-4877df56fb21.png)
 
 ### Our Model Architecture
-![Screen Shot 2021-05-26 at 11 10 38 AM](https://user-images.githubusercontent.com/57583574/119592247-0efc3d80-be13-11eb-9401-70fc41ada0c0.png)
+![Screen Shot 2021-05-26 at 11 12 05 AM](https://user-images.githubusercontent.com/57583574/119592333-3a7f2800-be13-11eb-9d99-bd4fe0bee3e2.png)
 
 
 ### Residual Block Architecture
