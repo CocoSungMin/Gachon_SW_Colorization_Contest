@@ -1,10 +1,10 @@
 # Colorization with Deep learning competitions in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
+## Model Overview
+![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
+-----------------------
 ### This Project code ranked 1st place in Colorization Challenge competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
 ![Screen Shot 2021-05-26 at 11 16 48 AM](https://user-images.githubusercontent.com/57583574/119592664-df9a0080-be13-11eb-963e-a567b6cfff6c.png)
-  
-
-![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
 
 Referenced Paper
 1. U-Net Convolutional Networks for Biomedical Image Segmentation : https://arxiv.org/abs/1505.04597.   
