@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1P0Vbt_V5FdcjWVyFcgQiK496nRUOWHzI/view?usp=shari
    
 Our model input has [ l . ab_hint , mask ] as a input.   
 Most of Fully open github project for colorization via deep learning adapted 4 channels as a input.   
-Their 4 channels consisted with 3 color channel ( e.g. Lab format L and ab chanel ) and mask as a channel.   
+Their 4 channels consisted with 3 color channel ( e.g. Lab format L and ab channel ) and mask as a channel.   
 The mask channel leads models to train provided hint with location of the hint pixel color.   
 This work shows better performance than other works in our team.
 So 4 channels go in, output comes with 3 channels so that it can be converted to ".png" format.    
@@ -34,10 +34,10 @@ But for our model the L1 loss return the highest score than others.
 Also for Learning Rate , we used , 1e-2 , 2e-2 , 1e-3 , 1e-4 , 2e-4 , 25e-5
 Like 1e-2 to 2e-4 shows a lot of blurred pixel with aritifacts but when learning with 25e-5 the epochs goes on the frequency of the artifacts goes down.
 
-First time we trained with batch size 4.    
-But after we get lowest losses, the same losses has different performances ( not that big differences but not same ).   
-So we tested the Best performance model files through test.py and select 122th epochs model.   
-Than increasing batchsize , training again from epochs 122. 
+First time we trained with batch size 4.     
+But after we get lowest losses, the same losses has different performances ( not that big differences but not same ).     
+So we tested the Best performance model files through test.py and select 122th epochs model.     
+Then increasing batchsize , training again from 122th epochs .     
 After that we got those score in leaderboard at CVIP Colorization Challenges.   
 
 ------------------------
