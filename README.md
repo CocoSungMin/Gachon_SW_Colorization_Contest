@@ -4,7 +4,8 @@
 ![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
 -----------------------
 ### This Project code ranked 1st place in Colorization Challenge competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
-![Screen Shot 2021-05-27 at 3 58 22 PM](https://user-images.githubusercontent.com/57583574/119780123-66c6a180-bf04-11eb-9067-090432512c1a.png)
+<img width="1243" alt="Screen Shot 2021-05-28 at 12 07 50 AM" src="https://user-images.githubusercontent.com/57583574/119850812-d5c5e980-bf48-11eb-8afb-325c95a3c258.png">
+
 
 
 Referenced Paper
