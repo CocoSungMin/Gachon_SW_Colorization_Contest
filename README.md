@@ -89,7 +89,7 @@ Input data size : ( 128 X 128 ).
 Color-hint : randomly given by dataloader [ 1% , 3% , 5% ].  
     
 ### Do Reload and Training 3 times
-#####122 epochs -> 10 epochs ( best 8t epochs ) -> 10 epochs ( best 5th epochs ) -> 10 epochs ( best 2nd epochs ).     
+##### 122 epochs -> 10 epochs ( best 8t epochs ) -> 10 epochs ( best 5th epochs ) -> 10 epochs ( best 2nd epochs ).     
 
 -----------------------
 ## Required Library
