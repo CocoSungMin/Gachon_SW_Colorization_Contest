@@ -11,7 +11,7 @@ Referenced Paper
 1. U-Net Convolutional Networks for Biomedical Image Segmentation : https://arxiv.org/abs/1505.04597.   
 2. Attention U-Net Learning Where to Look for the Pancreas : https://arxiv.org/abs/1804.03999      
 3. Real-Time User-Guided Image Colorization with Learned Deep Priors : https://arxiv.org/abs/1705.02999.  
-4. Depp Residual Learning for Image Recognition : https://arxiv.org/abs/1512.03385.  
+4. Deep Residual Learning for Image Recognition : https://arxiv.org/abs/1512.03385.  
 
 
 Basic model based on "Hyeju Yoon" standard u-net : 
