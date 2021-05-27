@@ -87,6 +87,9 @@ Optimizer : Adam.
 Batch Szize : 16.   
 Input data size : ( 128 X 128 ).    
 Color-hint : randomly given by dataloader [ 1% , 3% , 5% ].  
+    
+### Do Reload and Training 3 times
+#####122 epochs -> 10 epochs ( best 8t epochs ) -> 10 epochs ( best 5th epochs ) -> 10 epochs ( best 2nd epochs ).     
 
 -----------------------
 ## Required Library
@@ -111,13 +114,9 @@ python main.py
 python test.py
 ```
 
-4. Weight files ( Origanl weights epoch 122 )
+4.  Best Weight files
 ```
-https://drive.google.com/file/d/1LVdp19oS0_kKlV1ETluJIKM2YEWcQo9n/view?usp=sharing
-```
-6.  Best Weight files ( from epochs 122, training again with batchsize 16 + 8 epochs )
-```
-https://drive.google.com/file/d/1m-i0wfM5rpQyuzQPfH-OJJKQ87AD-J7v/view?usp=sharing
+https://drive.google.com/file/d/1dZBjzAy5t9W6Du_GJZPf70RUBkCOpFG3/view?usp=sharing
 ```
 -----------------
 ## Colorization Dataset from CVIP Lab
