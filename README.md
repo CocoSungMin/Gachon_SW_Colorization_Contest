@@ -79,14 +79,15 @@ Batch Szize : 4.
 Input data size : ( 128 X 128 ).    
 Color-hint : randomly given by dataloader [ 1% , 3% , 5% ].  
    
-### Reload and Training ( From epochs 122 ).   
+### Reload and Training ( From epochs 122 ).    
 Learning Rate : 25e-5.   
 Epoch : 10.    
 Loss Function : L1 loss.   
 Optimizer : Adam.
 Batch Szize : 16.   
 Input data size : ( 128 X 128 ).    
-Color-hint : randomly given by dataloader [ 1% , 3% , 5% ]
+Color-hint : randomly given by dataloader [ 1% , 3% , 5% ].  
+
 -----------------------
 ## Required Library
 1. numpy
