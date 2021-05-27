@@ -29,6 +29,16 @@ This work shows better performance than other works in our team.
 So 4 channels go in, output comes with 3 channels so that it can be converted to ".png" format.    
 Also we augment the training data ( Flip horizontal , Rotate 180 ) to expand training datasets.    
 
+We tried L1 , MSE , 1-SSIM , 1-MSSIM as a loss function.    
+But for our model the L1 loss return the highest score than others.   
+Also for Learning Rate , we used , 1e-2 , 2e-2 , 1e-3 , 1e-4 , 2e-4 , 25e-5
+Like 1e-2 to 2e-4 shows a lot of blurred pixel with aritifacts but when learning with 25e-5 the epochs goes on the frequency of the artifacts goes down.
+
+First time we trained with batch size 4.    
+But after we get lowest losses, the same losses has different performances ( not that big differences but not same ).   
+So we tested the Best performance model files through test.py and select 122th epochs model.   
+Than increasing batchsize , training again from epochs 122. 
+After that we got those score in leaderboard at CVIP Colorization Challenges.   
 
 ------------------------
 ## Team Member
@@ -64,10 +74,19 @@ Also we augment the training data ( Flip horizontal , Rotate 180 ) to expand tra
 Learning Rate : 25e-5.   
 Epoch : 150.    
 Loss Function : L1 loss.   
-Optimizer : Adam.    
+Optimizer : Adam.
+Batch Szize : 4.   
 Input data size : ( 128 X 128 ).    
-
-
+Color-hint : randomly given by dataloader [ 1% , 3% , 5% ].  
+   
+### Reload and Training ( From epochs 122 ).   
+Learning Rate : 25e-5.   
+Epoch : 10.    
+Loss Function : L1 loss.   
+Optimizer : Adam.
+Batch Szize : 16.   
+Input data size : ( 128 X 128 ).    
+Color-hint : randomly given by dataloader [ 1% , 3% , 5% ]
 -----------------------
 ## Required Library
 1. numpy
@@ -95,7 +114,7 @@ python test.py
 ```
 https://drive.google.com/file/d/1LVdp19oS0_kKlV1ETluJIKM2YEWcQo9n/view?usp=sharing
 ```
-6.  Weight files ( from epochs 122 training again with batchsize 16 + 8 epochs )
+6.  Best Weight files ( from epochs 122, training again with batchsize 16 + 8 epochs )
 ```
 https://drive.google.com/file/d/1m-i0wfM5rpQyuzQPfH-OJJKQ87AD-J7v/view?usp=sharing
 ```
