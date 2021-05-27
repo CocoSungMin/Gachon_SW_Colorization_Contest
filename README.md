@@ -4,7 +4,8 @@
 ![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
 -----------------------
 ### This Project code ranked 1st place in Colorization Challenge competitions in Multimedia&lab lecture ( From CVIP Lab in Gachon Uni. ).    
-![Screen Shot 2021-05-26 at 11 16 48 AM](https://user-images.githubusercontent.com/57583574/119592664-df9a0080-be13-11eb-963e-a567b6cfff6c.png)
+![Screen Shot 2021-05-27 at 3 58 22 PM](https://user-images.githubusercontent.com/57583574/119780123-66c6a180-bf04-11eb-9067-090432512c1a.png)
+
 
 Referenced Paper
 1. U-Net Convolutional Networks for Biomedical Image Segmentation : https://arxiv.org/abs/1505.04597.   
@@ -89,11 +90,18 @@ python main.py
 ```
 python test.py
 ```
+
+4. Weight files ( Origanl weights epoch 122 )
+```
+https://drive.google.com/file/d/1LVdp19oS0_kKlV1ETluJIKM2YEWcQo9n/view?usp=sharing
+```
+6.  Weight files ( from epochs 122 training again with batchsize 16 + 8 epochs )
+```
+https://drive.google.com/file/d/1m-i0wfM5rpQyuzQPfH-OJJKQ87AD-J7v/view?usp=sharing
+```
 -----------------
-You can get best model files via ( epoch 122 weight files )
-```
-https://drive.google.com/drive/folders/1GYLHydb1wabJKbSkf7c0NUSDalQ3JX9x?usp=sharing
-```
+## Colorization Dataset from CVIP Lab
+Restriction : Don't use test data as training data , augmentation is free.    
 training image ( contest provided) 
 ```
 https://drive.google.com/file/d/1nCaLNE644mz7JEYeyAbvyO0njpGdD4s1/view?usp=sharing
