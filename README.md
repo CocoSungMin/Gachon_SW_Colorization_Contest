@@ -129,7 +129,7 @@ https://drive.google.com/file/d/1nCaLNE644mz7JEYeyAbvyO0njpGdD4s1/view?usp=shari
 
 test image ( contest provided )
 ```
-https://drive.google.com/drive/folders/1GYLHydb1wabJKbSkf7c0NUSDalQ3JX9x?usp=sharing
+https://drive.google.com/file/d/1D0LLdXj447z7b88nuSWEMEoTfpcM6yY_/view?usp=sharing
 ```
 --------------
 ## License
