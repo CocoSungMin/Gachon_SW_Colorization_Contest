@@ -1,4 +1,4 @@
-# Colorization with Deep learning competitions in Multimedia&lab lecture, Department of Software Gachon Univ.
+# Colorization with Deep learning competitions in Multimedia&lab lecture, Department of Software Gachon Uni.
 -----------------------
 ## Model Overview
 ![git](https://user-images.githubusercontent.com/57583574/119586484-c7bc7f80-be07-11eb-960b-2a3ffb4f4c10.gif)
@@ -43,10 +43,10 @@ After that we got those score in leaderboard at CVIP Colorization Challenges.
 
 ------------------------
 ## Team Member
-1. Sungmin Lee ( Department of Software , undergraduated Research Assistant in VMRLAB Gachon Univ.)
-2. Taeho Oh ( Department of Software , Senior student in Gachon Univ.)
-3. Hyeju Yoon ( Department of Software , Senior student in Gachon Univ.)
-4. Soeun Lee ( Department of Software , Senior student in Gachon Univ.)
+1. Sungmin Lee ( Department of Software , undergraduated Research Assistant in VMRLAB Gachon Uni.)
+2. Taeho Oh ( Department of Software , Senior student in Gachon Uni.)
+3. Hyeju Yoon ( Department of Software , Senior student in Gachon Uni.)
+4. Soeun Lee ( Department of Software , Senior student in Gachon Uni.)
 -----------------------
 ## Model Architecture
 
@@ -133,4 +133,4 @@ https://drive.google.com/file/d/1D0LLdXj447z7b88nuSWEMEoTfpcM6yY_/view?usp=shari
 ```
 --------------
 ## License
-This project belongs to Multimedia & Lab Team 6 members , Gachon Univ. ( 2021 spring semester )
+This project belongs to Multimedia & Lab Team 6 members , Gachon Uni. ( 2021 spring semester )
