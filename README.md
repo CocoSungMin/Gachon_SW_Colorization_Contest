@@ -61,7 +61,8 @@ After that we got those score in leaderboard at CVIP Colorization Challenges.
 ![Recurrent_Residual_Block](https://user-images.githubusercontent.com/57583574/119463055-55528d80-bd7c-11eb-8063-09ef2857df7d.png)
 
 ### Attention Block Architecture
-![Atten_block](https://user-images.githubusercontent.com/57583574/119462193-69e25600-bd7b-11eb-842d-87e7c3c6cc52.png)
+![Screen Shot 2021-06-02 at 8 10 37 PM](https://user-images.githubusercontent.com/57583574/120470628-b8789b80-c3de-11eb-9aa5-aac87159405d.png)
+
 
 ### Upsample Block Architecture
 ![Upsample Block](https://user-images.githubusercontent.com/57583574/119459857-0a834680-bd79-11eb-8f75-a0a5b149c9da.png)
